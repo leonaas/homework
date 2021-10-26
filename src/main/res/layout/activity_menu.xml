@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        style="@style/imageview11_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        style="@style/imageview4_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        style="@style/imageview5_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/linearlayout2_style"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/button5_style"/>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/button6_style"/>
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/button7_style"/>
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/button8_style"/>
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/button9_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout_style"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@style/imagebutton_style" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            style="@style/imageview2_style"/>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            style="@style/imageview3_style"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
